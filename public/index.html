@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+  <form id="pet-form">
+    <input name="nombre" required placeholder="Nombre"/>
+    <input name="tipo" required placeholder="Tipo">
+    <input name="description" required placeholder="Descripción"/>
+    <input type="submit" value="Enviar">
+  </form>
+
+  <table>
+    <thead>
+      <th>Nombre</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+    <th>Acción</th>
+    </thead>
+    <tbody id="tabla">
+        <tr>
+            <td>Cargando...</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <script src="/__/firebase/7.17.1/firebase-app.js"></script>
+
+  <script src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+
+  <script src="/__/firebase/init.js"></script>
+</body>
+</html>
